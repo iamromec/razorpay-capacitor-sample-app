@@ -1,0 +1,7 @@
+{
+  "name": "razorpay-capacitor-sample-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
