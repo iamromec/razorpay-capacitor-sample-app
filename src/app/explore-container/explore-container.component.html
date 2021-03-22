@@ -1,4 +1,14 @@
 <div id="container">
   <strong>{{ name }}</strong>
   <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+
+  <div style="height: 50px;"></div>
+
+  <ion-row>
+    <ion-col size="1"></ion-col>
+    <ion-col>
+      <ion-button size="large" expand="block" color="primary" (click)="pay()">Pay using Razorpay</ion-button>
+    </ion-col>
+    <ion-col size="1"></ion-col>
+  </ion-row>
 </div>
